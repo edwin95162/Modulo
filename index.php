@@ -16,7 +16,8 @@
 	<th width="1070px" style="padding-top: 10px; padding-right: 20px; padding-bottom: 1px; padding-left: 140px"><button type="button" class="btn btn-secondary btn-lg">
 	Salir</button></th>
 	<th></th>
-	<th><button type="button" class="btn btn-primary btn-lg">
+	<th><a href="login.php">
+	<button type="button" class="btn btn-primary btn-lg">
 	Administrador</button></th>
 	</table><br>	
     <tr><h2 align="center">Reportes y Estadísticas</h2></tr>
@@ -30,17 +31,17 @@
   <table class="table" >
     <thead class="thead-light">
       <tr>	  		
-			<tr align="center"><th>
-			<button type="button" class="btn btn-secondary btn-lg btn-block">Médico</button>
+			<tr align="center"><th><a href="lista_medicos.php">
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Médico</button></a>
 			</th></tr>
-            <tr align="center"><th>
-			<button type="button" class="btn btn-secondary btn-lg btn-block">Paciente</button>
+            <tr align="center"><th><a href="lista_pacientes.php">
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Paciente</button></a>
 			</th></tr>
-            <tr align="center"><th>
-			<button type="button" class="btn btn-secondary btn-lg btn-block">Historia Clínica</button>
+            <tr align="center"><th><a href="lista_historia_clinica.php">
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Historia Clínica</button></a>
 			</th></tr>
-            <tr align="center"><th>
-			<button type="button" class="btn btn-secondary btn-lg btn-block">Tratamientos</button>
+            <tr align="center"><th><a href="lista_tratamientos.php">
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Tratamientos</button></a>
 			</th></tr>
                      
       </tr>
